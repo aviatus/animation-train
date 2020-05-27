@@ -5,16 +5,4 @@
   width: 100px;
   height: 100px;
   background-color: #000000;
-  animation: move-left 1.5s ease-in-out;
-}
-
-@keyframes move-left {
-  from {
-    opacity: 0;
-    transform: translateX(1000px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
